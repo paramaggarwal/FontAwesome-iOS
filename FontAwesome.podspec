@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "FontAwesome"
   s.version      = "4.2.0"
   s.summary      = "Category that makes FontAwesome even easier for iOS."
-  s.homepage     = "https://github.com/alexdrone/ios-fontawesome"
+  s.homepage     = "https://github.com/paramaggarwal/FontAwesome-iOS"
   s.license      = {
     :type => 'Private',
     :text => <<-LICENSE
@@ -10,8 +10,8 @@ This project uses the FontAwesome fix made by Pit Garbe that you can find at htt
     LICENSE
   }
   s.author       = { "Alex Usbergo" => "alexakadrone@gmail.com" }
-  s.source       = { :git => "https://github.com/alexdrone/ios-fontawesome.git", :commit => "3b1521af4d40e69d4ebb0547e0eae1a4713dedb6" }
-  s.platform     = :ios, '5.0'
+  s.source       = { :git => "https://github.com/paramaggarwal/FontAwesome-iOS", :tag => s.version.to_s }
+  s.platform     = :ios, '7.0'
   s.source_files = '*.{h,m}'
   s.exclude_files = 'Demo'
   s.resources = "Resources/*.ttf"
