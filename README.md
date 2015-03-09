@@ -21,9 +21,11 @@ First, make sure you have `FontAwesome.ttf` bundled in your project and that `UI
 
 Then add the `NSString+FontAwesome` category to the project.
 
-	UILabel *label = [...]
-	label.font = [UIFont fontWithName:kFontAwesomeFamilyName size:20];
-	
+```
+UILabel *label = [...]
+label.font = [UIFont fontWithName:kFontAwesomeFamilyName size:20];
+```
+
 You can now use enums for all the different iconic characters
 
 ```
@@ -33,7 +35,7 @@ label.text = [NSString fontAwesomeIconStringForEnum:FAGithub];
  or you can reference them by using the class identifiers listed here http://fortawesome.github.com/Font-Awesome/#all-icons
 
 ```	
-	label.text = [NSString fontAwesomeIconStringForIconIdentifier:@"fa-github"];
+label.text = [NSString fontAwesomeIconStringForIconIdentifier:@"fa-github"];
 ```
 
 That's it! For further information have a look to the small demo project!
@@ -46,14 +48,15 @@ FAImageView is now extended and contains a new property called `defaultView` tha
 It is possible to use one the font-awesome icon as a default placeholder for an image view.
 
 ```
-	FAImageView *imageView = [[FAImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, 100.f, 100.f)];
-    imageView.image = nil;
-    [imageView setDefaultIconIdentifier:@"fa-github"];
+FAImageView *imageView = [[FAImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, 100.f, 100.f)];
+imageView.image = nil;
+[imageView setDefaultIconIdentifier:@"fa-github"];
 ```
 
 License
 -------------------
 
+(forked from https://github.com/alexdrone/ios-fontawesome, to be available as a CocoaPod)
+
 Attribution is no longer required as of Font Awesome 3.0 but is much appreciated: "Font Awesome by Dave Gandy - http://fontawesome.io".
 
-(forked from https://github.com/alexdrone/ios-fontawesome, to be available as a CocoaPod)
