@@ -40,7 +40,7 @@ label.text = [NSString fontAwesomeIconStringForIconIdentifier:@"fa-github"];
 
 That's it! For further information have a look to the small demo project!
 
-FAImageView
+Placeholder Image
 --------------------
 
 FAImageView is now extended and contains a new property called `defaultView` that is shown when the image is set to nil.
