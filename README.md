@@ -1,9 +1,20 @@
-FontAwesome+iOS
+FontAwesome-iOS
 ===================
 
-Font awesome is an iconic font. Read more about it on http://fortawesome.github.com/Font-Awesome/
+Font awesome is an iconic font. Read more about it on http://fortawesome.github.com/Font-Awesome/. This category brings this great iconic font on iOS.
 
-This category brings this great iconic font on iOS.
+Forked from the original repository - https://github.com/alexdrone/ios-fontawesome, to update support for FontAwesome 4.3, and more importantly, to be available as a CocoaPod.
+
+Installation
+--------------------
+
+Add this to your `Podfile`:
+
+```
+pod 'FontAwesome'
+```
+
+This will include the helper files, and the font resource automatically in your app.
 
 Usage
 --------------------
