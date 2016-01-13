@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FontAwesome"
-  s.version      = "4.3.0"
+  s.version      = "4.5.0"
   s.summary      = "Add FontAwesome icons to iOS."
   s.homepage     = "https://github.com/paramaggarwal/FontAwesome-iOS"
   s.license      = {
